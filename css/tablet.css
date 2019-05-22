@@ -1,3 +1,6 @@
+.about {
+   width: 400px;
+}
 
 body {
    width: 400px;
@@ -217,6 +220,7 @@ p:nth-of-type(3) {
    top: 180px;
    left: 157px;
    letter-spacing: 1px;
+   width: 1px;
 }
 
 p:nth-of-type(4) {
