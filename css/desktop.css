@@ -228,3 +228,11 @@ p > a {
 p > a:hover {
    color: #a6aaa8;
 }
+
+a > i {
+   color: black;
+}
+
+a:hover > i {
+   color: #a6aaa8;
+}
