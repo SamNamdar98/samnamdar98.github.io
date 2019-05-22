@@ -198,14 +198,14 @@ p:nth-of-type(2) {
 
 .fab.fa-linkedin-in {
    position: relative;
-   top: 175px;
+   top: 215px;
    left: 14px;
    font-size: 32px;
 }
 
 .far.fa-envelope {
    position: relative;
-   top: 175px;
+   top: 215px;
    left: 102px;
    font-size: 32px;
 }
@@ -213,7 +213,7 @@ p:nth-of-type(2) {
 p:nth-of-type(3) {
    position: relative;
    font-size: 16px;
-   top: 140px;
+   top: 180px;
    left: 157px;
    letter-spacing: 1px;
 }
