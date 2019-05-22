@@ -233,11 +233,3 @@ p:nth-of-type(4) {
 .about {
    margin-bottom: 150px;
 }
-
-p > a {
-   color: black;
-}
-
-p > a:hover {
-   color: #a6aaa8;
-}
