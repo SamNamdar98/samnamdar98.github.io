@@ -220,19 +220,3 @@ p:nth-of-type(4) {
    margin-left: 830px;
    bottom: 20px;
 }
-
-p > a {
-   color: black;
-}
-
-p > a:hover {
-   color: #a6aaa8;
-}
-
-a > i {
-   color: black;
-}
-
-a:hover > i {
-   color: #a6aaa8;
-}

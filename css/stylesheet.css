@@ -14,3 +14,19 @@ a {
 .current {
    color: black;
 }
+
+p > a {
+   color: black;
+}
+
+p > a:hover {
+   color: #a6aaa8;
+}
+
+a > i {
+   color: black;
+}
+
+a:hover > i {
+   color: #a6aaa8;
+}
