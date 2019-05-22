@@ -1,0 +1,16 @@
+html {
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+   color: black;
+}
+
+a {
+   color: #a6aaa8;
+   text-decoration: none;
+}
+
+.current {
+   color: black;
+}

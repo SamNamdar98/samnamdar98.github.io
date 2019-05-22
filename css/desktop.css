@@ -1,0 +1,230 @@
+body {
+   width: 1024px;
+   margin: auto;
+}
+
+nav {
+   background-color: white;
+   margin-left: 463px;
+   margin-top: 50px;
+   width: 550px;
+}
+
+.logo {
+   margin-top: 3px;
+   margin-left: 30px;
+   position: absolute;
+   width: 307px;
+   height: 18px;
+}
+
+main {
+   margin-top: 80px;
+   position: relative;
+}
+
+nav > ul > li {
+   padding: 0 18px;
+   display: inline-block;
+   font-size: 21px;
+}
+
+nav > ul > li:last-of-type {
+   border-left: 1px solid #a6aaa8;
+}
+
+h1 {
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+   margin: 13px;
+}
+
+/* Photography */
+
+.hint-of-color {
+   margin-top: 80px;
+   width: 1024px;
+}
+
+.barber-shop {
+   margin-top: 80px;
+   width: 1024px;
+}
+
+.lauren {
+   margin-top: 80px;
+   margin-bottom: 85px;
+   width: 1024px;
+}
+
+.big-photo {
+   margin: auto;
+   width: 964px;
+}
+
+.small-photo {
+   margin: auto;
+   display: flex;
+   width: 964px;
+   justify-content: space-between;
+   padding-top: 15px;
+}
+
+.small-photo > img {
+   width: 308px;
+   height: 205px;
+}
+
+.big-photo > img {
+   width: 964px;
+   height: 642px;
+}
+
+/* Animation */
+
+.animation-video {
+   display: block;
+   margin: auto;
+   width: 964px;
+   margin-top: 80px;
+}
+
+.alien > video {
+   border: 0;
+   width: 964px;
+   height: 542px;
+}
+
+.megaphone > video {
+   border: 0;
+   width: 964px;
+   height: 542px;
+}
+
+.megaphone {
+   margin-top: 80px;
+   margin-bottom: 85px;
+}
+
+/* Design */
+.design-catalogue {
+   margin: auto;
+   margin-top: 80px;
+   width: 964px;
+}
+
+.design-catalogue > img {
+   width: 964px;
+   height: 642px;
+   padding: 9px 0;
+   margin: auto;
+}
+
+.main-poster-title {
+   margin-top: 58px;
+}
+
+.poster-location {
+   margin: auto;
+   display: flex;
+   width: 964px;
+   justify-content: space-between;
+}
+
+.poster-location > div > img {
+   width: 472px;
+   height: 708px;
+}
+
+.poster-title > h1 {
+   display: inline-block;
+}
+
+.poster-title > h1:nth-of-type(1) {
+   margin-left: 29px;
+}
+
+.poster-title > h1:nth-of-type(2) {
+   margin-left: 396px;
+}
+
+.design-video {
+   display: block;
+   margin: auto;
+   width: 308px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+.design-video > video {
+   width: 308px;
+   height: 652px;
+}
+
+/* About */
+.about-image {
+   position: relative;
+   width: 308px;
+   margin: auto;
+   margin-top: 80px;
+}
+
+.about-image > img {
+   width: 308px;
+   height: 308px;
+}
+
+p:nth-of-type(1) {
+   position: relative;
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+
+p:nth-of-type(2) {
+   position: relative;
+   font-size: 35px;
+   letter-spacing: 5px;
+   bottom: 27px;
+   text-align: center;
+}
+
+.fab.fa-linkedin-in {
+   position: relative;
+   top: 111px;
+   right: 6px;
+   font-size: 32px;
+}
+
+.far.fa-envelope {
+   position: relative;
+   top: 111px;
+   left: 92px;
+   font-size: 32px;
+}
+
+p:nth-of-type(3) {
+   position: relative;
+   font-size: 29px;
+   top: 50px;
+   left: 155px;
+   letter-spacing: 1px;
+}
+
+p:nth-of-type(4) {
+   position: relative;
+   font-size: 31px;
+   text-decoration: underline;
+   margin: auto;
+   margin-left: 830px;
+   bottom: 20px;
+}
+
+p > a {
+   color: black;
+}
+
+p > a:hover {
+   color: #a6aaa8;
+}

@@ -1,0 +1,243 @@
+.about {
+   width: 400px;
+}
+
+body {
+   width: 400px;
+   margin: auto;
+}
+
+nav {
+   position: relative;
+   width: 406px;
+   background-color: white;
+   margin-top: 35px;
+}
+
+nav > ul {
+   margin-left: -45px;
+}
+
+nav > ul > li {
+   padding: 0 18px;
+   display: inline-block;
+   font-size: 15px;
+}
+
+nav > ul > li:last-of-type {
+   border-left: 1px solid #a6aaa8;
+   margin-left: 2px;
+}
+
+.logo {
+   margin: auto;
+   margin-top: 55px;
+   margin-left: 38px;
+   width: 260px;
+   height: 15px;
+}
+
+main {
+   position: relative;
+}
+
+h1 {
+   font-size: 22px;
+   font-weight: 700;
+   text-align: center;
+   margin: 13px;
+}
+
+/* Photography */
+
+.hint-of-color {
+   margin-top: 48px;
+}
+
+.barber-shop {
+   margin-top: 52px;
+}
+
+.lauren {
+   margin-top: 52px;
+   margin-bottom: 73px;
+}
+
+.big-photo {
+   margin: auto;
+   width: 372px;
+}
+
+.small-photo {
+   margin: auto;
+   display: flex;
+   width: 372px;
+   justify-content: space-between;
+   padding-top: 15px;
+}
+
+.small-photo > img {
+   width: 112px;
+   height: 75px;
+}
+
+.big-photo > img {
+   width: 372px;
+   height: 248px;
+}
+
+/* Animation */
+
+.animation-video {
+   display: block;
+   margin: auto;
+   width: 372px;
+   margin-top: 48px;
+}
+
+.alien > video {
+   border: 0;
+   width: 372px;
+   height: 209px;
+}
+
+.megaphone > video {
+   border: 0;
+   width: 372px;
+   height: 209px;
+}
+
+.megaphone {
+   margin-top: 44px;
+   margin-bottom: 70px;
+}
+
+/* Design */
+.design-catalogue > h1 {
+   margin-bottom: 8px;
+}
+
+.design-catalogue {
+   margin: auto;
+   margin-top: 48px;
+   width: 372px;
+}
+
+.design-catalogue > img {
+   position: relative;
+   width: 372px;
+   height: 247px;
+   padding: 6px 0;
+   margin: auto;
+}
+
+.main-poster-title {
+   margin-top: 44px;
+}
+
+.poster-location > div > img {
+   width: 372px;
+   height: 556px;
+}
+
+.poster-location > div:last-of-type > img {
+   margin-top: 90px;
+}
+
+.poster-location {
+   margin: auto;
+   width: 372px;
+}
+
+.poster-title > h1:nth-of-type(1) {
+   margin-left: 13px;
+}
+
+.poster-title > h1:nth-of-type(2) {
+   position: absolute;
+   margin-left: 165px;
+   margin-top: 608px;
+}
+
+.design-video {
+   display: block;
+   margin: auto;
+   width: 300px;
+   margin-top: 47px;
+}
+
+.design-video > video {
+   width: 300px;
+   height: 636px;
+   margin-bottom: 58px;
+}
+
+/* About */
+.about-image {
+   position: relative;
+   width: 260px;
+   margin: auto;
+   margin-top: 68px;
+}
+
+.about-image > img {
+   width: 260px;
+   height: 260px;
+}
+
+p:nth-of-type(1) {
+   position: relative;
+   font-size: 23px;
+   font-weight: 700;
+   text-align: center;
+}
+
+p:nth-of-type(2) {
+   position: relative;
+   font-size: 20px;
+   letter-spacing: 4px;
+   bottom: 20px;
+   text-align: center;
+}
+
+.fab.fa-linkedin-in {
+   position: relative;
+   top: 215px;
+   left: 14px;
+   font-size: 32px;
+}
+
+.far.fa-envelope {
+   position: relative;
+   top: 215px;
+   left: 102px;
+   font-size: 32px;
+}
+
+p:nth-of-type(3) {
+   position: relative;
+   font-size: 16px;
+   top: 180px;
+   left: 157px;
+   letter-spacing: 1px;
+}
+
+p:nth-of-type(4) {
+   position: relative;
+   font-size: 16px;
+   text-decoration: underline;
+   text-align: center;
+   bottom: 19px;
+}
+
+.about {
+   margin-bottom: 150px;
+}
+
+p > a {
+   color: black;
+}
+
+p > a:hover {
+   color: #a6aaa8;
+}
