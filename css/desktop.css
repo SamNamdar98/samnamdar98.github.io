@@ -115,34 +115,24 @@ h1 {
 .creative-brief {
    position: relative;
    font-size: 20px;
-   width: 480px;
-   margin-left: 272px;
+   width: 1024px;
+   margin: auto;
    top: -80px;
    text-align: center;
    line-height: 25px;
 }
 
-.creative-brief > div:nth-of-type(2) {
+.creative-brief > p {
    position: relative;
-   bottom: 90px;
-}
-
-.creative-brief > div > p:nth-of-type(odd) {
-   position: relative;
-   margin-top: 100px;
-   font-weight: 700;
-   top: 5px;
-}
-
-.creative-brief > div > p:nth-of-type(even) {
-   position: relative;
-   bottom: 15px;
+   margin-top: 90px;
    font-weight: 400;
+   top: 5px;
+   margin-bottom: 120px;
 }
 
 .design-catalogue {
    position: relative;
-   top: -140px;
+   top: -100px;
    margin: auto;
    width: 964px;
 }
@@ -155,7 +145,8 @@ h1 {
 }
 
 .main-poster-title {
-   margin-top: 58px;
+   position: relative;
+   bottom: 30px;
 }
 
 .poster-location {
