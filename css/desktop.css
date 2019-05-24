@@ -108,12 +108,33 @@ h1 {
 }
 
 /* Design */
-.creative-brief > p {
+.museum-exhibition > h1 {
+   margin-top: 80px;
+}
+
+.creative-brief {
    position: relative;
-   font-size: 16px;
-   text-align: left;
+   font-size: 20px;
+   width: 512px;
+   margin-left: 30px;
+   top: -50px;
+}
+
+.creative-brief > div:nth-of-type(2) {
+   position: relative;
+   bottom: 70px;
+}
+
+.creative-brief > div > p:nth-of-type(odd) {
+   position: relative;
+   margin-top: 100px;
    font-weight: 700;
-   letter-spacing: 1px;
+}
+
+.creative-brief > div > p:nth-of-type(even) {
+   position: relative;
+   bottom: 15px;
+   font-weight: 400;
 }
 
 .design-catalogue {
