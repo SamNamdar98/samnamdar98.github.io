@@ -188,6 +188,26 @@ h1 {
    height: 652px;
 }
 
+.typography-poster > img {
+   width: 472px;
+   height: 729px;
+}
+
+.typography-poster {
+   width: 472px;
+   margin: auto;
+}
+
+.drop-caps > img {
+   width: 964px;
+   height: 642px;
+}
+
+.drop-caps {
+   width: 964px;
+   margin: auto;
+}
+
 /* About */
 .about-image {
    position: relative;
