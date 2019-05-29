@@ -196,6 +196,7 @@ h1 {
 .typography-poster {
    width: 472px;
    margin: auto;
+   margin-top: 50px;
    margin-bottom: 80px;
 }
 
