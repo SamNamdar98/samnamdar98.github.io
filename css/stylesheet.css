@@ -17,6 +17,14 @@ html {
    font-weight: 700;
 }
 
+.drop-caps {
+   box-shadow: 0 0 15px #a6aaa8;
+}
+
+.pixel-alphabet > img {
+   box-shadow: 0 0 15px #a6aaa8;
+}
+
 a:hover {
    color: black;
 }

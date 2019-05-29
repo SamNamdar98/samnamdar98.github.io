@@ -196,6 +196,7 @@ h1 {
 .typography-poster {
    width: 472px;
    margin: auto;
+   margin-bottom: 80px;
 }
 
 .drop-caps > img {
@@ -206,6 +207,23 @@ h1 {
 .drop-caps {
    width: 964px;
    margin: auto;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet {
+   width: 964px;
+   margin: auto;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet > img {
+   width: 964px;
+   height: 643px;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet > img:first-child {
+   margin-bottom: 80px;
 }
 
 /* About */
