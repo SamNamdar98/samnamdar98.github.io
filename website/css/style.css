@@ -1,0 +1,152 @@
+html {
+   background-color: white;
+}
+
+div {
+   background-image: url('../img/children-background-1280.jpg');
+   background-size: cover;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   height: 2610px;
+}
+
+@media (min-width: 1281px) {
+   div {
+      background-image: url('../img/children-background-big.jpg');
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      height: 3496px;
+   }
+}
+
+h1 {
+   font-family: Audiowide, cursive;
+   position: relative;
+   width: 806px;
+   margin-left: 70px;
+   padding-top: 50px;
+   font-size: 37px;
+}
+
+h1:nth-child(2) {
+   font-family: Changa, sans-serif;
+   font-weight: 400;
+   color: white;
+   bottom: 40px;
+   left: 295px;
+   font-size: 40px;
+}
+
+span {
+   font-family: Audiowide, cursive;
+   color: black;
+   font-size: 25px;
+   font-weight: 700;
+}
+
+section {
+   font-family: Changa, sans-serif;
+   font-weight: 400;
+   margin-left: 70px;
+   margin-top: 300px;
+   line-height: 40px;
+   width: 528px;
+   color: white;
+   font-size: 40px;
+}
+
+b {
+   font-size: 35px;
+}
+
+blockquote::before {
+   content: '“';
+}
+
+blockquote::after {
+   content: '”';
+}
+
+b,
+strong {
+   font-weight: 700;
+}
+
+ol {
+   font-family: Changa, sans-serif;
+   font-weight: 400;
+   list-style-type: decimal-leading-zero;
+   margin-top: 350px;
+   margin-left: 103px;
+   line-height: 50px;
+   font-size: 25px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+a:hover {
+   color: rgb(77, 184, 171);
+   background-color: white;
+   padding: 5px;
+}
+
+main {
+   font-family: Changa, sans-serif;
+   font-weight: 400;
+   text-align: justify;
+   width: 600px;
+   margin: auto;
+   line-height: 28px;
+   font-size: 23px;
+}
+
+p {
+   padding-top: 100px;
+}
+
+blockquote {
+   padding-top: 100px;
+   text-align: center;
+}
+
+div:last-child {
+   background-image: url('../img/bike-girl-1280.jpg');
+   background-size: cover;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   margin-top: 150px;
+   height: 2051px;
+}
+
+.magazine {
+   font-family: Changa, sans-serif;
+   position: relative;
+   text-decoration: none;
+   color: white;
+   background-color: rgb(77, 184, 171);
+   top: 1934px;
+   left: 70px;
+   font-size: 35px;
+   padding: 5px;
+}
+
+@media (min-width: 1281px) {
+   div:last-child {
+      background-image: url('../img/bike-girl-big.jpg');
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      margin-top: 150px;
+      height: 2613px;
+   }
+
+   .magazine {
+      top: 2489px;
+      left: 70px;
+      padding: 5px;
+   }
+}
