@@ -188,6 +188,14 @@ h1 {
    height: 652px;
 }
 
+.typography {
+   margin-top: 150px;
+}
+
+.typography-title {
+   margin-bottom: 50px;
+}
+
 .drop-caps > img {
    width: 964px;
    height: 642px;
