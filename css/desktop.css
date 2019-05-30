@@ -188,18 +188,6 @@ h1 {
    height: 652px;
 }
 
-.typography-poster > img {
-   width: 472px;
-   height: 729px;
-}
-
-.typography-poster {
-   width: 472px;
-   margin: auto;
-   margin-top: 50px;
-   margin-bottom: 80px;
-}
-
 .drop-caps > img {
    width: 964px;
    height: 642px;
