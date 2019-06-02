@@ -12,9 +12,14 @@ html {
    font-weight: 700;
 }
 
-.typography-title {
+.typography-title > h1 {
    font-family: 'Josefin Sans', sans-serif;
    font-weight: 700;
+}
+
+.typography-description {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 400;
 }
 
 .drop-caps {
