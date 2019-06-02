@@ -30,6 +30,20 @@ html {
    box-shadow: 0 0 15px #a6aaa8;
 }
 
+.website > h1 {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+}
+
+.website > p {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 400;
+}
+
+.website > p > a {
+   text-decoration: underline;
+}
+
 a:hover {
    color: black;
 }

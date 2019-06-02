@@ -213,6 +213,7 @@ h1 {
    margin: auto;
    text-align: center;
    top: -30px;
+   font-size: 20px;
 }
 
 .drop-caps > img {
@@ -240,6 +241,20 @@ h1 {
 
 .pixel-alphabet > img:first-child {
    margin-bottom: 80px;
+}
+
+.website {
+   position: relative;
+   top: -70px;
+   margin-bottom: 80px;
+}
+
+.website > p {
+   position: relative;
+   width: 968px;
+   font-size: 20px;
+   line-height: 27px;
+   margin: auto;
 }
 
 /* About */
