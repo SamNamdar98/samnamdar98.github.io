@@ -40,6 +40,17 @@ h1 {
    margin: 13px;
 }
 
+.cover-photo {
+   width: 968px;
+   margin: auto;
+   margin-top: 80px;
+}
+
+.cover-photo > img {
+   width: 968px;
+   height: 645px;
+}
+
 /* Photography */
 
 .hint-of-color {
