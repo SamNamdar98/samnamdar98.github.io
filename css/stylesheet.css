@@ -2,24 +2,24 @@ html {
    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.creative-brief {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 400;
+.museum-exhibition > h1 {
+   font-family: Roboto, sans-serif;
+   font-weight: 300;
 }
 
-.museum-exhibition {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 700;
+.creative-brief > p {
+   font-family: Roboto, sans-serif;
+   font-weight: 100;
 }
 
 .typography-title > h1 {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 700;
+   font-family: Roboto, sans-serif;
+   font-weight: 300;
 }
 
 .typography-description {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 400;
+   font-family: Roboto, sans-serif;
+   font-weight: 100;
 }
 
 .drop-caps {
@@ -31,13 +31,13 @@ html {
 }
 
 .website > h1 {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 700;
+   font-family: Roboto, sans-serif;
+   font-weight: 300;
 }
 
 .website > p {
-   font-family: 'Josefin Sans', sans-serif;
-   font-weight: 400;
+   font-family: Roboto, sans-serif;
+   font-weight: 100;
 }
 
 .website > p > a {
