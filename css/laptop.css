@@ -109,6 +109,26 @@ h1 {
 }
 
 /* Design */
+.museum-exhibition > h1 {
+   margin-top: 80px;
+}
+
+.creative-brief {
+   position: relative;
+   font-size: 20px;
+   width: 736px;
+   text-align: justify;
+   margin: auto;
+   top: -85px;
+   line-height: 27px;
+}
+
+.creative-brief > p {
+   position: relative;
+   margin-top: 90px;
+   top: 5px;
+}
+
 .design-catalogue > h1 {
    position: relative;
    right: 30px;
@@ -173,6 +193,64 @@ h1 {
    width: 400px;
    height: 848px;
    margin-bottom: 73px;
+}
+
+.typography {
+   margin-top: 150px;
+}
+
+.typography-title {
+   margin-bottom: 50px;
+}
+
+.typography-description {
+   position: relative;
+   width: 968px;
+   margin: auto;
+   text-align: center;
+   top: -30px;
+   font-size: 20px;
+}
+
+.drop-caps > img {
+   width: 964px;
+   height: 642px;
+}
+
+.drop-caps {
+   width: 964px;
+   margin: auto;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet {
+   width: 964px;
+   margin: auto;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet > img {
+   width: 964px;
+   height: 643px;
+   margin-bottom: 80px;
+}
+
+.pixel-alphabet > img:first-child {
+   margin-bottom: 80px;
+}
+
+.website {
+   position: relative;
+   top: -70px;
+   margin-bottom: 80px;
+}
+
+.website > p {
+   position: relative;
+   width: 968px;
+   font-size: 20px;
+   line-height: 27px;
+   margin: auto;
 }
 
 /* About */
