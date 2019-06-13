@@ -2,6 +2,16 @@ html {
    font-family: 'Roboto Condensed', sans-serif;
 }
 
+.hello > h1 {
+   font-family: Roboto, sans-serif;
+   font-weight: 300;
+}
+
+.hello > p {
+   font-family: Roboto, sans-serif;
+   font-weight: 100;
+}
+
 .museum-exhibition > h1 {
    font-family: Roboto, sans-serif;
    font-weight: 300;

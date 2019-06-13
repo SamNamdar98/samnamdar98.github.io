@@ -40,6 +40,43 @@ h1 {
    margin: 13px;
 }
 
+/* Home */
+.home-logo {
+   position: relative;
+   width: 308px;
+   margin: auto;
+   margin-top: 80px;
+}
+
+.home-logo > img {
+   width: 308px;
+   height: 308px;
+}
+
+.hello {
+   position: relative;
+   top: 30px;
+}
+
+.hello > h1 {
+   position: relative;
+   top: 20px;
+   font-size: 70px;
+}
+
+.hello > p:nth-of-type(1) {
+   position: relative;
+   font-size: 30px;
+   text-align: center;
+}
+
+.hello > p:nth-of-type(2) {
+   position: relative;
+   top: -20px;
+   font-size: 30px;
+   text-align: center;
+}
+
 /* Photography */
 
 .hint-of-color {
