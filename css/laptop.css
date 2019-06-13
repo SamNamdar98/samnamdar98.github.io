@@ -174,8 +174,9 @@ h1 {
 }
 
 .design-catalogue {
+   position: relative;
+   top: -40px;
    margin: auto;
-   margin-top: 80px;
    width: 736px;
 }
 
@@ -206,12 +207,12 @@ h1 {
 }
 
 .poster-title > h1:nth-of-type(1) {
-   margin-left: 21px;
+   margin-left: 1px;
 }
 
 .poster-title > h1:nth-of-type(2) {
    position: absolute;
-   margin-left: 18px;
+   margin-left: 1px;
    margin-top: 950px;
 }
 
@@ -234,16 +235,18 @@ h1 {
 }
 
 .typography {
-   margin-top: 150px;
+   margin-top: 50px;
 }
 
 .typography-title {
-   margin-bottom: 50px;
+   position: relative;
+   margin-bottom: 40px;
+   right: 17px;
 }
 
 .typography-description {
    position: relative;
-   width: 968px;
+   width: 736px;
    margin: auto;
    text-align: center;
    top: -30px;
@@ -251,25 +254,25 @@ h1 {
 }
 
 .drop-caps > img {
-   width: 964px;
-   height: 642px;
+   width: 736px;
+   height: 490px;
 }
 
 .drop-caps {
-   width: 964px;
+   width: 736px;
    margin: auto;
    margin-bottom: 80px;
 }
 
 .pixel-alphabet {
-   width: 964px;
+   width: 736px;
    margin: auto;
    margin-bottom: 80px;
 }
 
 .pixel-alphabet > img {
-   width: 964px;
-   height: 643px;
+   width: 736px;
+   height: 490px;
    margin-bottom: 80px;
 }
 
@@ -285,7 +288,7 @@ h1 {
 
 .website > p {
    position: relative;
-   width: 968px;
+   width: 736px;
    font-size: 20px;
    line-height: 27px;
    margin: auto;
