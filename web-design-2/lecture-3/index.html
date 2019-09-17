@@ -5,7 +5,7 @@
 <style>
 
 body {
-	background-color: #FFF278;
+	background-color: Yellow;
 }
 
 </style>
@@ -14,11 +14,11 @@ body {
 
 <body>
 
-	<h1>My Mood Ring</h1>
+	<h1>Change that color!</h1>
 
-	<button id="moodButton" onclick="changeMood()" value="0">Change my mood</button>
+	<button id="moodButton" onclick="changeMood()" value="0">change color</button>
 
-	<div id="moodStatement">Sunshiny feeling</div>
+	<div id="moodStatement">Yellow</div>
 
 
 <script>
@@ -26,17 +26,25 @@ text =""
 function changeMood(){
 	button = document.getElementById("moodButton")
 	if (button.value == '0') {
-		text ="Rainy Day Feeling";
+		text ="Blue";
 		document.getElementById('moodStatement').innerHTML = text
-		document.body.style.backgroundColor = "5465FF";
+		document.body.style.backgroundColor = "Blue";
 		button.value = '1';
 	}
-	else {
-		text = "Sunshiny feeling";
-		document.getElementById('moodStatement').innerHTML = text;
-				document.body.style.backgroundColor = "#FFF278";
-		button.value = '0';
-	}
+
+   if (button.value == '1') {
+		text ="red";
+		document.getElementById('moodStatement').innerHTML = text
+		document.body.style.backgroundColor = "red";
+		button.value = '2';
+   }
+
+   if (button.value == '2') {
+		text ="green";
+		document.getElementById('moodStatement').innerHTML = text
+		document.body.style.backgroundColor = "green";
+		button.value = '3';
+   }
 }
 
 
