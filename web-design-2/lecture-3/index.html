@@ -3,52 +3,44 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Riddles</title>
-   <link rel="stylesheet" href="css/reset.css">
+   <title>Mood Ring</title>
    <link rel="stylesheet" href="css/style.css">
-   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+
+   <style>
+body {
+	background-color: #FFF278;
+}
+</style>
+
 </head>
 
 <body>
-<h1>How Smart Are You?</h1>
+   <h1>My Mood Ring</h1>
 
-<h2>Say my name and I dissapear. What am I?</h2>
-   <button onclick="newFunction()">Answer</button>
-<div>
-   <h3>Solution</h3>
-   <p id="answer"></p>
-</div>
+   	<button id="moodButton" onclick="changeMood()" value="0">Change my mood</button>
 
-<h2>How many of each species did Moses take on the ark with him?</h2>
-   <button onclick="newFunction2()">Answer</button>
-<div>
-   <h3>Solution</h3>
-   <p id="answer2"></p>
-</div>
+   	<div id="moodStatement">Sunshiny feeling</div>
 
-<h2>I sit in a corner and travel around the world. What am I?</h2>
-   <button onclick="newFunction3()">Answer</button>
-<div>
-   <h3>Solution</h3>
-   <p id="answer3"></p>
-</div>
 
-<script>
-		function newFunction() {
-			alert('Lets find out if you were smart enough to solve the riddle');
-			document.getElementById("answer").innerHTML= "Silence";
-		}
+   <script>
+   text =""
+   function changeMood(){
+   	button = document.getElementById("moodButton")
+   	if (button.value == '0') {
+   		text ="Rainy Day Feeling";
+   		document.getElementById('moodStatement').innerHTML = text
+   		document.body.style.backgroundColor = "5465FF";
+   		button.value = '1';
+   	}
+   	else {
+   		text = "Sunshiny feeling";
+   		document.getElementById('moodStatement').innerHTML = text;
+   				document.body.style.backgroundColor = "#FFF278";
+   		button.value = '0';
+   	}
+   }
 
-      function newFunction2() {
-         alert('Lets find out if you were smart enough to solve the riddle');
-         document.getElementById("answer2").innerHTML= "None...Moses wasn't on the ark, Noah was!";
-      }
 
-      function newFunction3() {
-         alert('Lets find out if you were smart enough to solve the riddle');
-         document.getElementById("answer3").innerHTML= "A stamp";
-      }
-</script>
-
-</body>
-</html>
+   </script>
+   </body>
+   </html>
