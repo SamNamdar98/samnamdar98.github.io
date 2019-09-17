@@ -1,46 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Mood Ring</title>
-   <link rel="stylesheet" href="css/style.css">
+<html>
 
-   <style>
+<head>
+
+<style>
+
 body {
 	background-color: #FFF278;
 }
+
 </style>
 
 </head>
 
 <body>
-   <h1>My Spirit Animal</h1>
 
-   	<button id="moodButton" onclick="changeMood()" value="0">change my spirit animal</button>
+	<h1>My Mood Ring</h1>
 
-   	<div id="moodStatement">eagle</div>
+	<button id="moodButton" onclick="changeMood()" value="0">Change my mood</button>
 
-
-   <script>
-   text =""
-   function changeMood(){
-   	button = document.getElementById("moodButton")
-   	if (button.value == '0') {
-   		text ="Rainy Day Feeling";
-   		document.getElementById('moodStatement').innerHTML = text
-   		document.body.style.backgroundColor = "5465FF";
-   		button.value = '1';
-   	}
-   	else {
-   		text = "Sunshiny feeling";
-   		document.getElementById('moodStatement').innerHTML = text;
-   				document.body.style.backgroundColor = "#FFF278";
-   		button.value = '0';
-   	}
-   }
+	<div id="moodStatement">Sunshiny feeling</div>
 
 
-   </script>
-   </body>
-   </html>
+<script>
+text =""
+function changeMood(){
+	button = document.getElementById("moodButton")
+	if (button.value == '0') {
+		text ="Rainy Day Feeling";
+		document.getElementById('moodStatement').innerHTML = text
+		document.body.style.backgroundColor = "5465FF";
+		button.value = '1';
+	}
+	else {
+		text = "Sunshiny feeling";
+		document.getElementById('moodStatement').innerHTML = text;
+				document.body.style.backgroundColor = "#FFF278";
+		button.value = '0';
+	}
+}
+
+
+</script>
+</body>
+</html>
