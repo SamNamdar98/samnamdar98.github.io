@@ -7,7 +7,7 @@
 <style>
 
 canvas {
-   border: 1px solid black;
+   border: 1px solid purple;
 }
 
 </style>
@@ -27,10 +27,12 @@ ctx.moveTo(0,0);
 ctx.lineTo(500,500);
 ctx.stroke();
 
+ctx.fillStyle = 'rgb(200, 0, 0)';
 ctx.fillRect(25,25,100,100);
 ctx.clearRect(45,45,60,60);
 
 ctx.beginPath();
+ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
 ctx.moveTo(300,350);
 ctx.lineTo(400,350);
 ctx.lineTo(400,425);
