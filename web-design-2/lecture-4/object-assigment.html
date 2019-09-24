@@ -6,28 +6,28 @@
 
 <script>
 var firstObject = {
-   name: 'John',
-   color: 'Brown',
-   length: 'Short',
-   type: 'Curly',
+   name: 'Rex',
+   breed: 'Beagle',
+   color: 'White and Brown',
+   age: '2',
    myObjectFunction: function () {
-      alert(this.name + ' has' + this.type + 'hair');
+      alert(this.name + ' is a dog with ' + this.color + 'fur and is only ' + this.age + ' years of age');
    }
 }
 
 firstObject.myObjectFunction();
 
-function hairType(name, color, length, type) {
+function dogType(name, breed, color, age) {
    this.name = name;
+   this.breed = breed;
    this.color = color;
-   this.length = length;
-   this.type = type;
+   this.age = age;
    this.notice = function() {
-      alert(this.name + ' has ' + this.type + ' hair');
+      alert(this.name + ' is a dog with' + this.color + 'fur and is only' + this.age + ' years of age');
    }
 }
 
-var objFromConstructor = new hairType('Kelly', 'Red', 'Short', 'Sleek');
+var objFromConstructor = new dogType('Rex', 'Beagle', 'White and Brown', '2');
 
 objFromConstructor.notice();
 </script>
