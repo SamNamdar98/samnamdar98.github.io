@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="700" height="150" style="border:1px solid #d3d3d3;"></canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+// var ctx = c.getContext("2d");
+// ctx.beginPath();
+// ctx.arc(75, 75, 30, 0, 2 * Math.PI);
+// ctx.stroke();
+
+var circle = {
+   x: 75,
+   y: 75,
+   r: 30,
+   sa: 0,
+   ea: 2,
+   drawpath: function() {
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, this.sa, this.ea * Math.PI);
+      ctx.stroke();
+   }
+}
+
+circle.drawpath();
+
+function circleObjectConstructor(x, y, r, sa, ea) {
+   this.x = x;
+   this.y = y;
+   this.r = r;
+   this.sa = sa;
+   this.ea = ea;
+   this.drawpath = function() {
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, this.sa, this.ea * Math.PI);
+      ctx.stroke();
+   }
+}
+
+circle1 = new circleObjectConstructor (300, 75, 30, 0, 2);
+
+circle1.drawpath();
+
+</script>
+
+</body>
+</html>
