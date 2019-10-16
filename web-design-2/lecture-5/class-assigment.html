@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<canvas id="myCanvas" width="700" height="150" style="border:1px solid #d3d3d3;"></canvas>
+<canvas id="myCanvas" width="800" height="150" style="border:1px solid #d3d3d3;"></canvas>
 
 <script>
 var c = document.getElementById("myCanvas");
@@ -12,7 +12,7 @@ var c = document.getElementById("myCanvas");
 // ctx.stroke();
 
 var circle = {
-   x: 75,
+   x: 60,
    y: 75,
    r: 30,
    sa: 0,
@@ -43,9 +43,32 @@ function circleObjectConstructor(x, y, r, sa, ea) {
    }
 }
 
-circle1 = new circleObjectConstructor (300, 75, 30, 0, 2);
-
+circle1 = new circleObjectConstructor (150, 75, 30, 0, 2);
 circle1.drawpath();
+
+circle2 = new circleObjectConstructor (225, 75, 30, 0, 2);
+circle2.drawpath();
+
+circle3 = new circleObjectConstructor (300, 75, 30, 0, 2);
+circle3.drawpath();
+
+circle4 = new circleObjectConstructor (375, 75, 30, 0, 2);
+circle4.drawpath();
+
+circle5 = new circleObjectConstructor (450, 75, 30, 0, 2);
+circle5.drawpath();
+
+circle6 = new circleObjectConstructor (525, 75, 30, 0, 2);
+circle6.drawpath();
+
+circle7 = new circleObjectConstructor (600, 75, 30, 0, 2);
+circle7.drawpath();
+
+circle8 = new circleObjectConstructor (675, 75, 30, 0, 2);
+circle8.drawpath();
+
+circle9 = new circleObjectConstructor (750, 75, 30, 0, 2);
+circle9.drawpath();
 
 </script>
 
