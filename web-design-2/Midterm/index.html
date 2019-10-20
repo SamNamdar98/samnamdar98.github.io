@@ -20,24 +20,42 @@ switch case for checkpoints -->
 </head>
 
 <body>
+   <h1>To infinity and beyond!</h1>
+
+
+   <form id = "quiz" name = "quiz">
+
+
+   <p class = "questions">What is the object in the canvas? (2 words, only use lowercase letters)</p>
+   <input id = "textbox" type = "text" name = "question1">
+
+   <p class = "questions">From What Movie is "to infinity and beyond" from?</p>
+   <input type = "radio" id = "mc" name = "question2" value = "toyStory"> Toy Story<br>
+   <input type = "radio" id = "mc" name = "question2" value = "Limitless"> Limitless<br>
+
+   <p class = "questions">What planet is closest to the sun?</p>
+
+   <input type = "radio" id = "mc" name = "question3" value = "Mercury"> Mercury<br>
+   <input type = "radio" id = "mc" name = "question3" value = "Mars"> Mars<br>
+
+
+   <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+   </form>
+
+   <div id = "after_submit">
+   <p id = "number_correct"></p>
+   <p id = "message"></p>
 
 <canvas id="myCanvas" width="400" height="750" style="border:2px solid black;"></canvas>
 
    <script type="text/javascript">
        document.onkeydown = function(event) {
            switch (event.keyCode) {
-              // case 37:
-              //      alert('Left key pressed');
-              //    break;
               case 38:
                    alert('Up key pressed');
                  break;
-              // case 39:
-              //      alert('Right key pressed');
-              //    break;
-              // case 40:
-              //      alert('Down key pressed');
-              //    break;
            }
        };
        var canvas = document.getElementById("myCanvas");
@@ -71,7 +89,46 @@ switch case for checkpoints -->
       ctx.closePath();
       ctx.stroke();
 
-   </script>
+   // guessing
+   function check(){
+
+   	var question1 = document.quiz.question1.value;
+   	var question2 = document.quiz.question2.value;
+   	var question3 = document.quiz.question3.value;
+   	var correct = 0;
+
+
+   	if (question1 == "Rocket Ship") {
+   		correct++;
+   }
+   	if (question2 == "toyStory") {
+   		correct++;
+   }
+   	if (question3 == "Mercury") {
+   		correct++;
+   	}
+
+   	var messages = ["Great job!", "You are doing good", "Maybe next time :("];
+   	var score;
+
+   	if (correct == 0) {
+   		score = 2;
+   	}
+
+   	if (correct > 0 && correct < 3) {
+   		score = 1;
+   	}
+
+   	if (correct == 3) {
+   		score = 0;
+   	}
+
+   	document.getElementById("after_submit").style.visibility = "visible";
+
+   	document.getElementById("message").innerHTML = messages[score];
+   	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+   	}
+</script>
 
 </body>
 </html>
