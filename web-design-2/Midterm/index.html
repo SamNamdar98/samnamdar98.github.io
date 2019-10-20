@@ -20,6 +20,9 @@ switch case for checkpoints -->
 </head>
 
 <body>
+
+<canvas id="myCanvas" width="400" height="650" style="border:2px solid black;"></canvas>
+
    <script type="text/javascript">
        document.onkeydown = function(event) {
            switch (event.keyCode) {
@@ -37,9 +40,23 @@ switch case for checkpoints -->
               //    break;
            }
        };
+       var canvas = document.getElementById("myCanvas");
+       var ctx = canvas.getContext("2d");
+
+       ctx.beginPath();
+       ctx.moveTo(0, 650);
+       ctx.lineTo(100, 550);
+       ctx.lineTo(100, 650);
+       ctx.closePath();
+       ctx.stroke();
+
+       ctx.beginPath();
+       ctx.moveTo(300, 650);
+       ctx.lineTo(300, 550);
+       ctx.lineTo(400, 650);
+       ctx.closePath();
+       ctx.stroke();
    </script>
 
 </body>
-
-
-<script>
+</html>
