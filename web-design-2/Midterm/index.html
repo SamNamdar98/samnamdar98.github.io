@@ -21,7 +21,7 @@ switch case for checkpoints -->
 
 <body>
 
-<canvas id="myCanvas" width="400" height="650" style="border:2px solid black;"></canvas>
+<canvas id="myCanvas" width="400" height="750" style="border:2px solid black;"></canvas>
 
    <script type="text/javascript">
        document.onkeydown = function(event) {
@@ -42,24 +42,35 @@ switch case for checkpoints -->
        };
        var canvas = document.getElementById("myCanvas");
        var ctx = canvas.getContext("2d");
-
+// left triangle
        ctx.beginPath();
-       ctx.moveTo(75, 650);
-       ctx.lineTo(150, 550);
-       ctx.lineTo(150, 650);
+       ctx.moveTo(130, 650);
+       ctx.lineTo(165, 550);
+       ctx.lineTo(165, 650);
        ctx.closePath();
        ctx.stroke();
 
+// right triangle
        ctx.beginPath();
-       ctx.moveTo(250, 650);
-       ctx.lineTo(250, 550);
-       ctx.lineTo(325, 650);
+       ctx.moveTo(235, 650);
+       ctx.lineTo(235, 550);
+       ctx.lineTo(270, 650);
        ctx.closePath();
        ctx.stroke();
 
+// center rectangle
       ctx.beginPath();
       ctx.rect(175, 550, 50, 100);
       ctx.stroke();
+
+// top triangle
+      ctx.beginPath();
+      ctx.moveTo(175, 540);
+      ctx.lineTo(200, 500);
+      ctx.lineTo(225, 540);
+      ctx.closePath();
+      ctx.stroke();
+
    </script>
 
 </body>
