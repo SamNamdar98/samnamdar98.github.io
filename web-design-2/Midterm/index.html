@@ -44,18 +44,22 @@ switch case for checkpoints -->
        var ctx = canvas.getContext("2d");
 
        ctx.beginPath();
-       ctx.moveTo(0, 650);
-       ctx.lineTo(100, 550);
-       ctx.lineTo(100, 650);
+       ctx.moveTo(75, 650);
+       ctx.lineTo(150, 550);
+       ctx.lineTo(150, 650);
        ctx.closePath();
        ctx.stroke();
 
        ctx.beginPath();
-       ctx.moveTo(300, 650);
-       ctx.lineTo(300, 550);
-       ctx.lineTo(400, 650);
+       ctx.moveTo(250, 650);
+       ctx.lineTo(250, 550);
+       ctx.lineTo(325, 650);
        ctx.closePath();
        ctx.stroke();
+
+      ctx.beginPath();
+      ctx.rect(175, 550, 50, 100);
+      ctx.stroke();
    </script>
 
 </body>
