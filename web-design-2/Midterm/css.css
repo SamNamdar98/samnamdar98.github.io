@@ -1,0 +1,38 @@
+html {
+   background-color: rgba(24, 108, 175);
+}
+
+body {
+   width: 438px;
+   margin: auto;
+   color: white;
+   font-size: 17px;
+   /* text-align: center; */
+}
+
+h1 {
+   font-size: 70px;
+}
+
+span {
+   font-size: 96px;
+}
+
+#after_submit {
+   width: 450;
+   margin: auto;
+}
+
+#quiz {
+   width: 438px;
+   margin: auto;
+   margin-top: -30px;
+}
+
+p {
+   font-size: 17px;
+}
+
+#button {
+   margin-top: 20px;
+}
