@@ -60,27 +60,35 @@ switch case for checkpoints -->
        };
        var canvas = document.getElementById("myCanvas");
        var ctx = canvas.getContext("2d");
+       ctx.fillStyle = "#186CB2";
+       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 // left triangle
        ctx.beginPath();
-       ctx.moveTo(55, 200);
+       ctx.moveTo(45, 200);
        ctx.lineTo(90, 100);
        ctx.lineTo(90, 200);
        ctx.closePath();
        ctx.stroke();
+       ctx.fillStyle = "#AF1919";
+       ctx.fill();
 
 // right triangle
        ctx.beginPath();
        ctx.moveTo(160, 200);
        ctx.lineTo(160, 100);
-       ctx.lineTo(195, 200);
+       ctx.lineTo(205, 200);
        ctx.closePath();
        ctx.stroke();
+       ctx.fillStyle = "#AF1919";
+       ctx.fill();
 
 // center rectangle
       ctx.beginPath();
       ctx.rect(100, 100, 50, 100);
       ctx.stroke();
+      ctx.fillStyle = "#FFFFFF";
+      ctx.fill();
 
 // top triangle
       ctx.beginPath();
@@ -89,6 +97,8 @@ switch case for checkpoints -->
       ctx.lineTo(150, 90);
       ctx.closePath();
       ctx.stroke();
+      ctx.fillStyle = "#AF1919";
+      ctx.fill();
 
    // guessing
    function check(){
