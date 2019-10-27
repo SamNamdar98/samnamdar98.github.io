@@ -1,5 +1,4 @@
-<!-- create canvas
-Create shapes
+<!--
 give shapes ability to move with arrows
 only accept up arrow key
 if checkpoint then adding shape
@@ -56,9 +55,9 @@ switch case for checkpoints -->
        document.onkeydown = function(event) {
            switch (event.keyCode) {
               case 38:
-                   alert('Up key pressed');
+                   alert('How do you know when the moon has enough to eat?');
                  break;
-           }
+         }
        };
        var canvas = document.getElementById("myCanvas");
        var ctx = canvas.getContext("2d");
@@ -121,7 +120,7 @@ switch case for checkpoints -->
    		correct++;
    	}
 
-   	var messages = ["To infinity and beyond!", "Almost there!", "1 down 2 to go!", "Maybe next time :("];
+   	var messages = ["To infinity and beyond! Now press up arrow key ", "Almost there!", "1 down 2 to go!", "Maybe next time :("];
    	var score;
 
    	if (correct == 0) {
