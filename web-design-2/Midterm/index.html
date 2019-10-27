@@ -48,7 +48,7 @@ switch case for checkpoints -->
    <p id = "number_correct"></p>
    <p id = "message"></p>
 
-<canvas id="myCanvas" width="400" height="750" style="border:2px solid black;"></canvas>
+<canvas id="myCanvas" width="350" height="350" style="border:2px solid black;"></canvas>
 
    <script type="text/javascript">
        document.onkeydown = function(event) {
@@ -60,32 +60,33 @@ switch case for checkpoints -->
        };
        var canvas = document.getElementById("myCanvas");
        var ctx = canvas.getContext("2d");
+
 // left triangle
        ctx.beginPath();
-       ctx.moveTo(130, 650);
-       ctx.lineTo(165, 550);
-       ctx.lineTo(165, 650);
+       ctx.moveTo(105, 250);
+       ctx.lineTo(140, 150);
+       ctx.lineTo(140, 250);
        ctx.closePath();
        ctx.stroke();
 
 // right triangle
        ctx.beginPath();
-       ctx.moveTo(235, 650);
-       ctx.lineTo(235, 550);
-       ctx.lineTo(270, 650);
+       ctx.moveTo(210, 250);
+       ctx.lineTo(210, 150);
+       ctx.lineTo(245, 250);
        ctx.closePath();
        ctx.stroke();
 
 // center rectangle
       ctx.beginPath();
-      ctx.rect(175, 550, 50, 100);
+      ctx.rect(150, 150, 50, 100);
       ctx.stroke();
 
 // top triangle
       ctx.beginPath();
-      ctx.moveTo(175, 540);
-      ctx.lineTo(200, 500);
-      ctx.lineTo(225, 540);
+      ctx.moveTo(150, 140);
+      ctx.lineTo(175, 100);
+      ctx.lineTo(200, 140);
       ctx.closePath();
       ctx.stroke();
 
@@ -98,7 +99,7 @@ switch case for checkpoints -->
    	var correct = 0;
 
 
-   	if (question1 == "Rocket Ship") {
+   	if (question1 == "rocket ship") {
    		correct++;
    }
    	if (question2 == "toyStory") {
@@ -108,7 +109,7 @@ switch case for checkpoints -->
    		correct++;
    	}
 
-   	var messages = ["Great job!", "You are doing good", "Maybe next time :("];
+   	var messages = ["To infinity and beyond!", "You are doing good", "Maybe next time :("];
    	var score;
 
    	if (correct == 0) {
