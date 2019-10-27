@@ -7,7 +7,6 @@ body {
    margin: auto;
    color: white;
    font-size: 17px;
-   /* text-align: center; */
 }
 
 h1 {
@@ -24,7 +23,7 @@ span {
 }
 
 #quiz {
-   width: 438px;
+   width: 478px;
    margin: auto;
    margin-top: -30px;
 }

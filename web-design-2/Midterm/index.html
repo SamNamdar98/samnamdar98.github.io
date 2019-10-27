@@ -55,10 +55,11 @@ switch case for checkpoints -->
        document.onkeydown = function(event) {
            switch (event.keyCode) {
               case 38:
-                   alert('How do you know when the moon has enough to eat?');
-                 break;
-         }
-       };
+                   alert('How do you know when the moon has enough to eat?              When it’s full');
+                   break;
+                }
+             };
+
        var canvas = document.getElementById("myCanvas");
        var ctx = canvas.getContext("2d");
        ctx.fillStyle = "#186CB2";
@@ -120,7 +121,7 @@ switch case for checkpoints -->
    		correct++;
    	}
 
-   	var messages = ["To infinity and beyond! Now press up arrow key ", "Almost there!", "1 down 2 to go!", "Maybe next time :("];
+   	var messages = ["To infinity and beyond! Now press up arrow key for a fun riddle", "Almost there!", "1 down 2 to go!", "Maybe next time :("];
    	var score;
 
    	if (correct == 0) {
