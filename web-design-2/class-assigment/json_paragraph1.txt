@@ -1,0 +1,10 @@
+{
+		"artist" : "Drake",
+		"venue": "Big Hall",
+		"date": "2019-12-20",
+		"city": "New York",
+		"state": "NY",
+		"show_time":"22:00",
+		"price":"40",
+		"currency": "USD"
+	},

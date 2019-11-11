@@ -1,0 +1,10 @@
+{
+   "artist" : "Bjork",
+   "venue": "Smokey Club",
+   "date": "2020-03-28",
+   "city": "Queens",
+   "state": "NY",
+   "show_time":"21:00",
+   "price":"40",
+   "currency": "USD"
+},
