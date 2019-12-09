@@ -12,15 +12,12 @@
                 var farenheitTemperature = true;
                 var currentWeather;
                 var currentTemp;
-                var zip; 
+                var zip;
 
-                // JQuery 'initializer'
-                // Checks to see when the document is ready and then binds the handlers
                 $(document).ready(() => {
                     updateWeatherInformation()
 
                     // JQuery bind for zip code button press
-                    // When this block is executed, it calls the updateWeatherInformatino to update the weather values
                     $('#zip-button').bind("click", (data) => {
                         console.log("Setting new zip code")
                         zip = $('#zip-input').val()
@@ -34,7 +31,7 @@
                         farenheitTemperature = true;
                         changeWeatherUnit(currentTemp, farenheitTemperature)
                     })
-                    
+
                     // JQuery bind for temperature unit change button press
                     $('#celcius-temperature').bind("click", (data) => {
                         console.log("Changing to C")
@@ -43,9 +40,7 @@
                     })
                 })
 
-                // This function calls the open weather API to get all the values to populate our HTML content
-                // The function makes a request to the api, and then by using JQuery, updates the individual HTML
-                // elements based on their ID's
+                // makes a request to the api, and then by using JQuery, updates the individual HTML
                 function updateWeatherInformation() {
                     $.ajax({
                         url: 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?zip=' + (zip || 11023) + ',us&units=imperial&appid=' + API_KEY,
@@ -79,7 +74,7 @@
                 }
 
 
-                // When executed this function checks what the current weather status is and updates the icon on the page
+                // checks what the current weather status is and updates the icon
                 function setIcon() {
                     console.log("Current Weather: ", currentWeather)
                     if (currentWeather == "Rain") {
@@ -97,11 +92,10 @@
                     }
                 }
 
-                // This handles the calculations for conversions between the two units
                 function changeWeatherUnit(temp, unit) {
                     var temperaturePostfix = farenheitTemperature ? "F" : "C"
 
-                    // If false it means we have celcius selected, change unit to celcius
+                    // If false it means celcius selected
                     if (!unit) {
                         var newTemp = (temp - 32) * (5/9)
                         var truncatedNum = Number.parseFloat(newTemp).toFixed(2);
@@ -113,8 +107,8 @@
                     $('#temp-stat').html(temp + "°" + temperaturePostfix)
                 }
 
-                // Our tip 'bank' which allows us to setup various tips in the box which will then be randomly selected and 
-                // displayed when we handle the tip button press
+                // randomly selected tips
+
                 function selectRandomTip() {
                     const tips = {
                         "weather_type": {
@@ -213,7 +207,7 @@
             </div>
         </div>
         <footer>
-    
+
         </footer>
     </body>
 </html>
