@@ -1,0 +1,224 @@
+body, html{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.top-header {
+    height: 50px;
+    width: 100%;
+    background: #297373;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 17;
+}
+
+.header-input {
+    display: flex;
+
+}
+
+.content-container {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.weather-title-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10;
+    width: 100%;
+    font-size: 25;
+}
+
+.weather-title {
+    font-size: 45px;
+    color: #297373;
+}
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    border-style: solid;
+    border-color: #297373;
+    border-width: 3px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.weather-stat-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+    .weather-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 500px;
+        border-style: solid;
+        border-color: #297373;
+        border-width: 3px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .weather-stat-container {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        width: 80%;
+        flex-direction: column;
+    }
+}
+
+.weather-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 50px;
+    color: #297373;
+}
+
+.weather-stat-title {
+    font-size: 25px;
+    color: #297373;
+}
+
+.weather-stat-subtitle {
+    font-size: 15px;
+    text-align: center;
+}
+
+.weather-condition-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    margin-top: -50px;
+}
+
+.weather-item-title {
+    font-size: 25px;
+    text-decoration: none;
+    color: #297373;
+}
+
+.title-hover:hover {
+    text-shadow: 0 0 10px #297373;
+}
+
+.temperature-selection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.temperature-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.input-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 26px;
+}
+
+.tip-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #297373;
+    margin-top: 15px;
+    color: white;
+    width: 100%;
+    height: 75px;
+    border-color: #297373;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.tip-style {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tip-button-style {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 0;
+    font-size: 20px;
+    background-color: white;
+    color: #297373;
+}
+
+.temp-control-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: #297373;
+    border-radius: 15px;
+    border: 1px solid;
+}
